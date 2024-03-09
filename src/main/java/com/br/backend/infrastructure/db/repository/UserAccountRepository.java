@@ -8,7 +8,7 @@ import org.springframework.stereotype.Repository;
 import java.util.Optional;
 
 @Repository
-public interface StaffRepository extends JpaRepository<UserAccount, Long> {
+public interface UserAccountRepository extends JpaRepository<UserAccount, Long> {
     @Query(nativeQuery = true, value = """
             SELECT * from staff where login = :login""")
     Optional<UserAccount> findByLogin(String login);

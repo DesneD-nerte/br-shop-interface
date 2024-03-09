@@ -18,12 +18,12 @@ public class Application {
 	public static void main(String[] args) {
 		SpringApplication.run(Application.class, args);
 
-		try {
-			LineResponse test = LineResponse.class.getDeclaredConstructor().newInstance();
-			System.out.println(test.lines);
-			System.out.println(test.result);
-		} catch (Exception e) {
-			throw new RuntimeException(e);
-		}
+//		try {
+//			LineResponse test = LineResponse.class.getDeclaredConstructor().newInstance();
+//			System.out.println(test.lines);
+//			System.out.println(test.result);
+//		} catch (Exception e) {
+//			throw new RuntimeException(e);
+//		}
 	}
 }

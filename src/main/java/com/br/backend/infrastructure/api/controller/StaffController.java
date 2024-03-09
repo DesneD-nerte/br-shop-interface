@@ -1,4 +1,4 @@
-package com.br.backend.infrastructure.api.controllers;
+package com.br.backend.infrastructure.api.controller;
 
 import com.br.backend.core.services.StaffService;
 import com.br.backend.infrastructure.db.model.UserAccount;
